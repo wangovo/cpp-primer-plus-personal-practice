@@ -1,0 +1,24 @@
+#include <iostream>
+#include<climits>
+using namespace std;
+int main(int argc, char *argv[]) {
+	int n1=INT_MAX;
+	short n2=SHRT_MAX;//注意是shrt而不是short
+	long n3=LONG_MAX;
+	long long n4=LLONG_MAX;//也是特别的
+	
+	cout<<"依次所占字节："<<endl;
+	cout<<sizeof(int)<<"?="<<sizeof(n1)<<endl;
+	cout<<sizeof(short)<<"?="<<sizeof(n2)<<endl;
+	cout<<sizeof(long)<<"?="<<sizeof(n3)<<endl;
+	cout<<sizeof(long long)<<"?="<<sizeof(n4)<<endl;
+	
+	cout<<"依次所表示最大值："<<endl;
+	cout<<n1<<endl;
+	cout<<n2<<endl;
+	cout<<n3<<endl;
+	cout<<n4<<endl;
+
+	cout<<"一字节多少位："<<endl;
+	cout<<CHAR_BIT<<endl;
+}
