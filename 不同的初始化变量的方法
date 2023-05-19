@@ -1,0 +1,11 @@
+#include <iostream>
+#include<climits>
+using namespace std;
+int main(int argc, char *argv[]) {
+	int a=101;
+	int b(202);//C++特有初始化方式
+	int c{11};//C++11新增
+	int d={22};
+	int e{};//空初始化为0
+	cout<<a<<" "<<b<<" "<<c<<" "<<d<<" "<<e;
+}
