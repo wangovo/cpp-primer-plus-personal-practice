@@ -8,8 +8,8 @@ int main(int argc, char *argv[]) {
 	long long n4=LLONG_MAX;//也是特别的
 	
 	cout<<"依次所占字节："<<endl;
-	cout<<sizeof(int)<<"?="<<sizeof(n1)<<endl;
-	cout<<sizeof(short)<<"?="<<sizeof(n2)<<endl;
+	cout<<sizeof(int)<<"?="<<sizeof n1<<endl;
+	cout<<sizeof(short)<<"?="<<sizeof n2<<endl;
 	cout<<sizeof(long)<<"?="<<sizeof(n3)<<endl;
 	cout<<sizeof(long long)<<"?="<<sizeof(n4)<<endl;
 	
